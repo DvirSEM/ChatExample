@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #F0F2F5;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 650px;
+  height: 450px;
+  padding: 15px;
+  background-color: #dcf8c6;
+
+  position: relative;
+}
+
+.historyContainer {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.filler {
+  height: 60px;
+}
+
+.float {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: calc(100% - 10px);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.messageBox {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  margin: 10px;
+  resize: none;
+  border-radius: 10px;
+}
+
+.sendButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+  background-color: black;
+}
+
+.customize {
+  margin: 50px;
+  width: 500px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.entry {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameCircle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 30px;
+  /* padding-top: 5px; */
+}
+
+.bobble {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  min-width: 200px;
+  max-width: 500px;
+  min-height: 50px;
+  border-radius: 0 15px 15px 15px;
+}
